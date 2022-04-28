@@ -1,0 +1,108 @@
+Options -Indexes 
+
+
+
+
+
+
+/Custom 400 errors
+
+ErrorDocument 400 /404.html#400
+
+
+
+//Custom 401 errors
+
+ErrorDocument 401 /404.html#401
+
+
+
+//Custom 403 errors
+
+ErrorDocument 403 /404.html#403
+
+
+
+//Custom 404 errors
+
+ErrorDocument 404 /404.html#404
+
+
+
+//Custom 500 errors
+
+//ErrorDocument 500 /404.html#500
+
+ 
+
+<IfModule mod_expires.c>
+
+    ExpiresActive On
+
+
+
+    
+
+    ExpiresDefault A300
+
+    ExpiresByType image/x-icon A2592000
+
+    ExpiresByType application/x-javascript A3600
+
+    ExpiresByType text/css A172800
+
+    ExpiresByType image/gif A172800
+
+    ExpiresByType image/png A172800
+
+    ExpiresByType image/jpeg A172800
+
+    ExpiresByType text/plain A300
+
+    ExpiresByType application/x-shockwave-flash A172800
+
+    ExpiresByType video/x-flv A172800
+
+    ExpiresByType application/pdf A172800
+
+    ExpiresByType text/html A300
+
+</IfModule>
+
+
+
+
+
+# BROWSER CACHING USING CACHE-CONTROL HEADERS
+
+<ifModule mod_headers.c> 
+
+    # One year for image and video files
+
+    <filesMatch ".(flv|gif|ico|jpg|jpeg|mp4|mpeg|png|svg|swf|webp)$">
+
+        Header set Cache-Control "max-age=172800, public"
+
+    </filesMatch>
+
+
+
+    # One month for JavaScript and PDF files
+
+    <filesMatch ".(js|pdf)$">
+
+        Header set Cache-Control "max-age=172800, public"
+
+    </filesMatch>
+
+
+
+    # One week for CSS files
+
+    <filesMatch ".(css)$">
+
+        Header set Cache-Control "max-age=172800, public"
+
+    </filesMatch>
+
+</ifModule>
