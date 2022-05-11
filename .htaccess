@@ -2,7 +2,38 @@ Options -Indexes
 
 
 Redirect /degree/notesmcqexam.html /mcq/index.html
-
+Redirect /degree/EXTC_SEM5.html /degree/EXTC-SEM5.html
+Redirect /degree/BIOTECH_SEM8.html /degree/BIOTECH-SEM8.html
+Redirect /degree/ETRX_SEM3.html /degree/ETRX-SEM3.html
+Redirect /degree/ETRX_SEM5.html /degree/ETRX-SEM5.html
+Redirect /degree/MECH_SEM7.html /degree/MECH-SEM7.html
+Redirect /degree/COMPS_SEM7.html /degree/COMPS-SEM7.html
+Redirect /degree/CIVIL_SEM8.html /degree/CIVIL-SEM8.html
+Redirect /diploma/INDUS_ELECTRONICS_SEM3.html /diploma/INDUS-ELECTRONICS-SEM3.html
+Redirect /diploma/AUTO_SEM2.html /diploma/AUTO-SEM2.html
+Redirect /diploma/COMPS_SEM2.html /diploma/COMPS-SEM2.html
+Redirect /diploma/PT_SEM3.html /diploma/PT-SEM3.html
+Redirect /diploma/INDUS_ELECTRONICS_SEM2.html /diploma/INDUS-ELECTRONICS-SEM2.html
+Redirect /diploma/ENTC_SEM2.html /diploma/ENTC-SEM2.html
+Redirect /diploma/ENTC_SEM6.html /diploma/ENTC-SEM6.html
+Redirect /diploma/PHARMA_SEM2.html /diploma/PHARMA-SEM2.html
+Redirect /diploma/COMPS_SEM4.html /diploma/COMPS-SEM4.html
+Redirect /diploma/CIVIL_SEM3.html /diploma/CIVIL-SEM3.html
+Redirect /diploma/CHEM_SEM3.html /diploma/CHEM-SEM3.html
+Redirect /diploma/CHEM_SEM6.html /diploma/CHEM-SEM6.html
+Redirect /diploma/CIVIL_SEM5.html /diploma/CIVIL-SEM5.html
+Redirect /diploma/ENTC_SEM4.html /diploma/ENTC-SEM4.html
+Redirect /diploma/ELECTRICAL_SEM4.html /diploma/ELECTRICAL-SEM4.html
+Redirect /diploma/CIVIL_SEM4.html /diploma/CIVIL-SEM4.html
+Redirect /diploma/INFT_SEM5.html /diploma/INFT-SEM5.html
+Redirect /diploma/CHEM_SEM5.html /diploma/CHEM-SEM5.html
+Redirect /diploma/TXT_SEM3.html /diploma/TXT-SEM3.html
+Redirect /diploma/PT_SEM4.html /diploma/PT-SEM4.html
+Redirect /diploma/INFT_SEM4.html /diploma/INFT-SEM4.html
+Redirect /diploma/AUTO_SEM6.html /diploma/AUTO-SEM6.html
+Redirect /diploma/ELECTRICAL_SEM5.html /diploma/ELECTRICAL-SEM5.html
+Redirect /diploma/PT_SEM6.html /diploma/PT-SEM6.html
+Redirect /diploma/CIVIL_SEM6.html /diploma/CIVIL-SEM6.html
 
 
 /Custom 400 errors
