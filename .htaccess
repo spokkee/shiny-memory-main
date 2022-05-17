@@ -34,6 +34,7 @@ Redirect /diploma/AUTO_SEM6.html /diploma/AUTO-SEM6.html
 Redirect /diploma/ELECTRICAL_SEM5.html /diploma/ELECTRICAL-SEM5.html
 Redirect /diploma/PT_SEM6.html /diploma/PT-SEM6.html
 Redirect /diploma/CIVIL_SEM6.html /diploma/CIVIL-SEM6.html
+Redirect /degree/notesmcqexam.html /index.html
 
 
 /Custom 400 errors
